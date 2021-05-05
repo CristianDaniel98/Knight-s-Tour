@@ -43,5 +43,4 @@ if __name__ == '__main__':
 	board = np.zeros((N, N))
 	pos = 2
 	board[a][b] = 1
-`
 	knightTour(a, b, pos, N, board)
